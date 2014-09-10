@@ -58,3 +58,123 @@ $_M "
 [Wed Sep 10 13:05:27 2014] [debug] Rendering template "login/login.html.ep".
 [Wed Sep 10 13:05:27 2014] [debug] Rendering template "layouts/default.html.ep".
 [Wed Sep 10 13:05:27 2014] [debug] 200 OK (0.008992s, 111.210/s).
+[Wed Sep 10 17:05:18 2014] [info] Listening at "http://*:3000".
+[Wed Sep 10 17:05:27 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 10 17:05:27 2014] [debug] Routing to controller "ImgHost::Login" and action "login".
+[Wed Sep 10 17:05:27 2014] [debug] Rendering template "login/login.html.ep".
+[Wed Sep 10 17:05:27 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Sep 10 17:05:27 2014] [error] Bareword "style" not allowed while "strict subs" in use at template "layouts/default.html.ep" line 5, near "    </head>".
+1: <!DOCTYPE html>
+2: <html>
+3:     <head>
+4:         <title><%= title %></title>
+5:         <link rel="stylesheet" type="text/css" href="<%= style %>">
+6:     </head>
+7:     <body><%= content %></body>
+8: </html>
+
+[Wed Sep 10 17:05:27 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 10 17:05:27 2014] [debug] Template "exception.html.ep" not found.
+[Wed Sep 10 17:05:27 2014] [debug] Rendering inline template.
+[Wed Sep 10 17:05:27 2014] [debug] Rendering inline template.
+[Wed Sep 10 17:05:27 2014] [debug] 500 Internal Server Error (0.078439s, 12.749/s).
+[Wed Sep 10 17:06:41 2014] [info] Listening at "http://*:3000".
+[Wed Sep 10 17:06:43 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 10 17:06:43 2014] [debug] Routing to controller "ImgHost::Login" and action "login".
+[Wed Sep 10 17:06:43 2014] [debug] Rendering template "login/login.html.ep".
+[Wed Sep 10 17:06:43 2014] [error] syntax error at template "login/login.html.ep" line 3, near "Default page. Move <a href="/index.html">here</a> to static page.".
+1: % layout 'default';
+2: % title 'Login to Image Hosting';
+3: % style '"/css/style.css"';
+4: Default page. Move <a href="/index.html">here</a> to static page.
+
+[Wed Sep 10 17:06:43 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 10 17:06:43 2014] [debug] Template "exception.html.ep" not found.
+[Wed Sep 10 17:06:43 2014] [debug] Rendering inline template.
+[Wed Sep 10 17:06:43 2014] [debug] Rendering inline template.
+[Wed Sep 10 17:06:43 2014] [debug] 500 Internal Server Error (0.035791s, 27.940/s).
+[Wed Sep 10 17:07:37 2014] [info] Listening at "http://*:3000".
+[Wed Sep 10 17:07:40 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 10 17:07:40 2014] [debug] Routing to controller "ImgHost::Login" and action "login".
+[Wed Sep 10 17:07:40 2014] [debug] Rendering template "login/login.html.ep".
+[Wed Sep 10 17:07:40 2014] [error] syntax error at template "login/login.html.ep" line 3, near "Default page. Move <a href="/index.html">here</a> to static page.".
+1: % layout 'default';
+2: % title 'Login to Image Hosting';
+3: % style '/css/style.css';
+4: Default page. Move <a href="/index.html">here</a> to static page.
+
+[Wed Sep 10 17:07:40 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 10 17:07:40 2014] [debug] Template "exception.html.ep" not found.
+[Wed Sep 10 17:07:40 2014] [debug] Rendering inline template.
+[Wed Sep 10 17:07:40 2014] [debug] Rendering inline template.
+[Wed Sep 10 17:07:40 2014] [debug] 500 Internal Server Error (0.036114s, 27.690/s).
+[Wed Sep 10 17:08:00 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 10 17:08:00 2014] [debug] Routing to controller "ImgHost::Login" and action "login".
+[Wed Sep 10 17:08:00 2014] [debug] Rendering template "login/login.html.ep".
+[Wed Sep 10 17:08:00 2014] [error] syntax error at template "login/login.html.ep" line 3, near "Default page. Move <a href="/index.html">here</a> to static page.".
+1: % layout 'default';
+2: % title 'Login to Image Hosting';
+3: % style '/css/style.css';
+4: Default page. Move <a href="/index.html">here</a> to static page.
+
+[Wed Sep 10 17:08:00 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 10 17:08:00 2014] [debug] Template "exception.html.ep" not found.
+[Wed Sep 10 17:08:00 2014] [debug] Rendering cached inline template.
+[Wed Sep 10 17:08:00 2014] [debug] Rendering cached inline template.
+[Wed Sep 10 17:08:00 2014] [debug] 500 Internal Server Error (0.013162s, 75.976/s).
+[Wed Sep 10 17:10:20 2014] [info] Listening at "http://*:3000".
+[Wed Sep 10 17:10:23 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 10 17:10:23 2014] [debug] Routing to controller "ImgHost::Login" and action "login".
+[Wed Sep 10 17:10:23 2014] [debug] Rendering template "login/login.html.ep".
+[Wed Sep 10 17:10:23 2014] [error] syntax error at template "login/login.html.ep" line 3, near "Default page. Move <a href="/index.html">here</a> to static page.".
+1: % layout 'default';
+2: % title 'Login to Image Hosting';
+3: % style '<link rel="stylesheet" type="text/css" href="/css/style.css">'
+4: Default page. Move <a href="/index.html">here</a> to static page.
+
+[Wed Sep 10 17:10:23 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 10 17:10:23 2014] [debug] Template "exception.html.ep" not found.
+[Wed Sep 10 17:10:23 2014] [debug] Rendering inline template.
+[Wed Sep 10 17:10:23 2014] [debug] Rendering inline template.
+[Wed Sep 10 17:10:23 2014] [debug] 500 Internal Server Error (0.033321s, 30.011/s).
+[Wed Sep 10 17:11:29 2014] [info] Listening at "http://*:3000".
+[Wed Sep 10 17:11:32 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 10 17:11:32 2014] [debug] Routing to controller "ImgHost::Login" and action "login".
+[Wed Sep 10 17:11:32 2014] [debug] Rendering template "login/login.html.ep".
+[Wed Sep 10 17:11:32 2014] [error] syntax error at template "login/login.html.ep" line 3, near "Default page. Move <a href="/index.html">here</a> to static page.".
+1: % layout 'default';
+2: % title 'Login to Image Hosting';
+3: % style '<link rel="stylesheet" type="text/css" href="/css/style.css">';
+4: Default page. Move <a href="/index.html">here</a> to static page.
+
+[Wed Sep 10 17:11:32 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 10 17:11:32 2014] [debug] Template "exception.html.ep" not found.
+[Wed Sep 10 17:11:32 2014] [debug] Rendering inline template.
+[Wed Sep 10 17:11:32 2014] [debug] Rendering inline template.
+[Wed Sep 10 17:11:32 2014] [debug] 500 Internal Server Error (0.036719s, 27.234/s).
+[Wed Sep 10 17:11:34 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 10 17:11:34 2014] [debug] Routing to controller "ImgHost::Login" and action "login".
+[Wed Sep 10 17:11:34 2014] [debug] Rendering template "login/login.html.ep".
+[Wed Sep 10 17:11:34 2014] [error] syntax error at template "login/login.html.ep" line 3, near "Default page. Move <a href="/index.html">here</a> to static page.".
+1: % layout 'default';
+2: % title 'Login to Image Hosting';
+3: % style '<link rel="stylesheet" type="text/css" href="/css/style.css">';
+4: Default page. Move <a href="/index.html">here</a> to static page.
+
+[Wed Sep 10 17:11:35 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 10 17:11:35 2014] [debug] Template "exception.html.ep" not found.
+[Wed Sep 10 17:11:35 2014] [debug] Rendering cached inline template.
+[Wed Sep 10 17:11:35 2014] [debug] Rendering cached inline template.
+[Wed Sep 10 17:11:35 2014] [debug] 500 Internal Server Error (0.013816s, 72.380/s).
+[Wed Sep 10 17:13:15 2014] [info] Listening at "http://*:3000".
+[Wed Sep 10 17:13:17 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 10 17:13:17 2014] [debug] Routing to controller "ImgHost::Login" and action "login".
+[Wed Sep 10 17:13:17 2014] [debug] Rendering template "login/login.html.ep".
+[Wed Sep 10 17:13:17 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Sep 10 17:13:17 2014] [debug] 200 OK (0.008206s, 121.862/s).
+[Wed Sep 10 17:15:37 2014] [info] Listening at "http://*:3000".
+[Wed Sep 10 17:15:41 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 10 17:15:41 2014] [debug] Routing to controller "ImgHost::Login" and action "login".
+[Wed Sep 10 17:15:41 2014] [debug] Rendering template "login/login.html.ep".
+[Wed Sep 10 17:15:41 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Sep 10 17:15:41 2014] [debug] 200 OK (0.009844s, 101.585/s).
