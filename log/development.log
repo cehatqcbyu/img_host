@@ -1,0 +1,60 @@
+[Wed Sep 10 13:01:34 2014] [info] Listening at "http://*:3000".
+[Wed Sep 10 13:01:41 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 10 13:01:41 2014] [error] Global symbol "$self" requires explicit package name at script/../lib/ImgHost/Login.pm line 8.
+Compilation failed in require at (eval 246) line 1.
+
+[Wed Sep 10 13:01:41 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 10 13:01:41 2014] [debug] Template "exception.html.ep" not found.
+[Wed Sep 10 13:01:41 2014] [debug] Rendering inline template.
+[Wed Sep 10 13:01:41 2014] [debug] Rendering inline template.
+[Wed Sep 10 13:01:41 2014] [debug] 500 Internal Server Error (0.031612s, 31.634/s).
+[Wed Sep 10 13:02:22 2014] [info] Listening at "http://*:3000".
+[Wed Sep 10 13:02:26 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 10 13:02:26 2014] [error] ImgHost/Login.pm did not return a true value at (eval 246) line 1.
+
+[Wed Sep 10 13:02:26 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 10 13:02:26 2014] [debug] Template "exception.html.ep" not found.
+[Wed Sep 10 13:02:26 2014] [debug] Rendering inline template.
+[Wed Sep 10 13:02:26 2014] [debug] Rendering inline template.
+[Wed Sep 10 13:02:26 2014] [debug] 500 Internal Server Error (0.032050s, 31.201/s).
+[Wed Sep 10 13:02:41 2014] [info] Listening at "http://*:3000".
+[Wed Sep 10 13:02:45 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 10 13:02:45 2014] [debug] Routing to controller "ImgHost::Login" and action "login".
+[Wed Sep 10 13:02:45 2014] [debug] Rendering template "login/login.html.ep".
+[Wed Sep 10 13:02:45 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Sep 10 13:02:45 2014] [debug] 200 OK (0.007592s, 131.718/s).
+[Wed Sep 10 13:04:24 2014] [info] Listening at "http://*:3000".
+[Wed Sep 10 13:04:27 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 10 13:04:27 2014] [debug] Routing to controller "ImgHost::Login" and action "login".
+[Wed Sep 10 13:04:27 2014] [debug] Rendering template "login/login.html.ep".
+[Wed Sep 10 13:04:27 2014] [error] Can't locate object method "Image" via package "Hosting" (perhaps you forgot to load "Hosting"?) at template "login/login.html.ep" line 2, near "Default page. Move <a href="/index.html">here</a> to static page.".
+1: % layout 'default';
+2: % title Login to Image Hosting
+3: Default page. Move <a href="/index.html">here</a> to static page.
+
+[Wed Sep 10 13:04:27 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 10 13:04:27 2014] [debug] Template "exception.html.ep" not found.
+[Wed Sep 10 13:04:27 2014] [debug] Rendering inline template.
+[Wed Sep 10 13:04:27 2014] [debug] Rendering inline template.
+[Wed Sep 10 13:04:27 2014] [debug] 500 Internal Server Error (0.034508s, 28.979/s).
+[Wed Sep 10 13:04:44 2014] [info] Listening at "http://*:3000".
+[Wed Sep 10 13:04:49 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 10 13:04:49 2014] [debug] Routing to controller "ImgHost::Login" and action "login".
+[Wed Sep 10 13:04:49 2014] [debug] Rendering template "login/login.html.ep".
+[Wed Sep 10 13:04:49 2014] [error] syntax error at template "login/login.html.ep" line 3.
+$_M "
+1: % layout 'default';
+2: % title 'Login to Image Hosting'
+3: Default page. Move <a href="/index.html">here</a> to static page.
+
+[Wed Sep 10 13:04:49 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 10 13:04:49 2014] [debug] Template "exception.html.ep" not found.
+[Wed Sep 10 13:04:49 2014] [debug] Rendering inline template.
+[Wed Sep 10 13:04:49 2014] [debug] Rendering inline template.
+[Wed Sep 10 13:04:49 2014] [debug] 500 Internal Server Error (0.032621s, 30.655/s).
+[Wed Sep 10 13:05:24 2014] [info] Listening at "http://*:3000".
+[Wed Sep 10 13:05:27 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 10 13:05:27 2014] [debug] Routing to controller "ImgHost::Login" and action "login".
+[Wed Sep 10 13:05:27 2014] [debug] Rendering template "login/login.html.ep".
+[Wed Sep 10 13:05:27 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Sep 10 13:05:27 2014] [debug] 200 OK (0.008992s, 111.210/s).
