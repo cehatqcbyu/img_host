@@ -37,6 +37,33 @@ sub check {
     }
 }
 
+# registration of new users
+# return 'ok' if registration is successful
+# return error message - if not
+sub register {
+    my ($self, $login, $pass, $pass2) = @_;
+
+    # get current passwords
+    &get_users();
+
+    # user field is empty
+    return "Fill username field!" if ($login eq '');
+    # one of passwords field is empty
+    return "Fill both password fields!" if ( ($pass eq '') || ($pass2 eq '') );
+    # passwords not equal
+    return "Passwords do not match!" if ($pass ne $pass2 );
+
+    # add new user to passwords file
+    open (my $pass_file, '>>', './users/users.conf') || die "Can't open file ./users/users.conf: $!";
+    # make hash
+    my $hash = crypt $pass, $salt;
+    say $pass_file "$login $hash";
+    close ($pass_file);
+
+    # everything is fine
+    return "ok";
+}
+
 # get user/pass from password file
 sub get_users {
     undef %users;
