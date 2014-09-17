@@ -1,3 +1,17 @@
 % layout 'default';
 % title 'Login to Image Hosting';
-Default page. Move <a href="/index.html">here</a> to static page.
+% if (param 'user') {
+    <b>Wrong username or password, please try again!</b><br>
+% }
+
+<form action="<%=url_for('login')%>" method="post">
+Name:<br>
+    <input type="text" name="user">
+    <br>
+    Password:<br>
+    <input type="password" name="pass">
+    <br>
+    <input type="submit" value="Login">
+</form>
+
+<a href="<%=url_for('registration')%>">Register</a>    

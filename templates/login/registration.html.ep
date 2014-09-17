@@ -1,0 +1,19 @@
+% layout 'default';
+% title 'Register on Image Hosting'
+% if ($err_message ne '') {
+    <b><%= $err_message %><b><br>
+% }
+<b>Enter registration information:</b><br>
+<form action="<%=url_for('registration')%>" method="post">
+    Username:<br>
+    <input type="text" name="user">
+    <br>
+    Password:<br>
+    <input type="password" name="pass">
+    <br>
+    Retype Password:<br>
+    <input type="password" name="pass2">
+    <br>
+    <input type="submit" value="Register">
+</form>
+
